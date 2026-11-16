@@ -94,7 +94,7 @@ The same check and correction run inside any [Onepin](https://onepin.ai) workflo
 
 **Hard words read right** is the share of hard-word readings within 0.25 wrong, missing or extra sounds per sound of an accepted reading: one wrong sound in a word of four to seven sounds, two in a word of eight to eleven.
 
-**Readings.** Each word has a primary reading in IPA and, where legitimate variants exist, further accepted readings, checked against dictionaries, Wikipedia, Wiktionary and official sources. The readings of the 178 hard words in the released sentences are in `data/readings.json`. Disputed readings can be raised as an issue; a changed reading gets a changelog entry and a re-score.
+**Readings.** Each word has a primary reading in IPA and, where legitimate variants exist, further accepted readings, checked against dictionaries, Wikipedia, Wiktionary and official sources. The readings are in `data/sentences.csv`. Disputed readings can be raised as an issue; a changed reading gets a changelog entry and a re-score.
 
 [docs/METHOD.md](docs/METHOD.md) has the full scoring rule, the second judge and the statistics. In a blind human listener study, PED caught 9 in 10 of the pronunciation errors listeners heard in source TTS. A blind listener evaluation of the benchmark audio will be released with version 1.1 and the accompanying paper.
 
@@ -113,14 +113,13 @@ Version 1.1 adds a blind listening round on this audio and a re-run with one fix
 
 | Path | Contents |
 |---|---|
-| `data/sentences.csv` | The 36 released sentences, the ones behind the showcase clips, and their hard words. They are fiction written for the test; statements in them about real people, places, products or medicines are invented |
-| `data/readings.json` | Target IPA reading and accepted alternatives for the 178 hard words in the released sentences |
+| `data/sentences.csv` | The 100 sentences, their hard words, and each hard word's target IPA reading and accepted alternatives. The sentences are fiction written for the test; statements in them about real people, places, products or medicines are invented |
 | `data/models.csv` | The per-model table: pronunciation accuracy, hard-word accuracy and the second judge, source and after Onepin, with intervals |
 | `data/results.json` | Aggregate results with bootstrap intervals, per category and per provider |
 | `data/providers.csv` | The provider catalogues and their product pages, as linked in the leaderboard |
 | `docs/METHOD.md` | The scoring rule, the second judge, statistics |
 
-Per-clip scores for all 2,700 clips, the showcase audio with a player and each showcase clip's per-word outputs are on Hugging Face: [huggingface.co/datasets/onepin/hard-word-benchmark](https://huggingface.co/datasets/onepin/hard-word-benchmark). The other 64 sentences and their readings are held back, so the benchmark cannot be tuned to.
+Per-clip scores for all 2,700 clips, the showcase audio with a player and each showcase clip's per-word outputs are on Hugging Face: [huggingface.co/datasets/onepin/hard-word-benchmark](https://huggingface.co/datasets/onepin/hard-word-benchmark). Per-word results outside the showcase clips and the rest of the audio are held back.
 
 ## Licence
 

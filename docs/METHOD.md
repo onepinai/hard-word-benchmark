@@ -4,7 +4,7 @@ This page gives the scoring rule, the second judge and the statistics behind the
 
 ## The set
 
-100 sentences, written for the test around 484 hard words in 32 categories: cities, rivers, mountains, people, drugs, brands, software, mythology and more. Each sentence carries four to five hard words. The sentences are fiction; statements in them about real people, places, products or medicines are invented. 36 of them, the sentences behind the showcase clips, are released with their hard words in `data/sentences.csv`; the rest are held back.
+100 sentences, written for the test around 484 hard words in 32 categories: cities, rivers, mountains, people, drugs, brands, software, mythology and more. Each sentence carries four to five hard words. The sentences are fiction; statements in them about real people, places, products or medicines are invented. The sentences, their hard words and the readings are in `data/sentences.csv`.
 
 27 commercial TTS models from 17 provider catalogues read all 100 sentences: 2,700 clips, 9.5 hours of audio, 13,068 hard-word readings. Audio was generated on 20 September 2026 with each provider's default settings, plain text and no pronunciation controls. Each clip took a voice from the provider's English catalogue, cycling through it: 1,383 distinct voices in all (1,613 model-voice pairs; a voice shared across a provider's models is counted once), from 4 to 100 per model. Voice counts per model are in `data/models.csv`.
 
@@ -24,7 +24,7 @@ PED, Onepin's pronunciation check, is also the judge: it transcribes each hard w
 
 ## The readings
 
-Each of the 484 words has a primary reading in IPA and, where legitimate variants exist, further accepted readings. A language-model agent checked each against dictionaries, Wikipedia, Wiktionary and official sources, and the released `data/readings.json` gives the target reading and accepted alternatives for the 178 hard words in the released sentences. No phonetician reviewed the list. For 86 words the evidence was thin. Those are scored leniently: every reading the checker proposed counts as accepted, plus a common alternative reading unless the checker found a definite fault in it. Scoring only the other 398 words moves the hard-word figures by under a point (44.1% → 87.8% by PED). Disputed readings can be raised as an issue on this repository. A changed reading gets a changelog entry and a re-score.
+Each of the 484 words has a primary reading in IPA and, where legitimate variants exist, further accepted readings. A language-model agent checked each against dictionaries, Wikipedia, Wiktionary and official sources, and `data/sentences.csv` gives each hard word's target reading and accepted alternatives. No phonetician reviewed the list. For 86 words the evidence was thin. Those are scored leniently: every reading the checker proposed counts as accepted, plus a common alternative reading unless the checker found a definite fault in it. Scoring only the other 398 words moves the hard-word figures by under a point (44.1% → 87.8% by PED). Disputed readings can be raised as an issue on this repository. A changed reading gets a changelog entry and a re-score.
 
 ## Where TTS goes wrong
 
@@ -91,4 +91,4 @@ Every rate carries a 95% interval from a cluster bootstrap over the 100 sentence
 
 ## What is withheld
 
-This is a closed benchmark. Released: 36 of the 100 sentences with their hard words and readings, the audio and per-word judge outputs of the 70 showcase clips, per-clip scores for all 2,700 clips, and the aggregate tables. The other 64 sentences, their readings, the per-word outputs for the rest of the set and more than 97% of the audio are held back, so the corrected audio cannot be used to train a corrector and neither the text nor the audio can be used to tune a model or a detector to this set. The recogniser is not released.
+This is a closed benchmark. Released: the 100 sentences with their hard words and readings, the audio and per-word judge outputs of the 70 showcase clips, per-clip scores for all 2,700 clips, and the aggregate tables. The per-word outputs for the rest of the set and more than 97% of the audio are held back, so the corrected audio cannot be used to train a corrector and the source audio cannot be used to tune a detector to this set. The recogniser is not released.

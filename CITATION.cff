@@ -20,4 +20,4 @@ abstract: >-
   How often 27 commercial text-to-speech models mispronounce 484 hard words in 100 US-English
   sentences, and how much Onepin's pronunciation check and correction fixes, scored sound by sound
   before and after correction. 2,700 clips, 13,068 hard-word readings, two phone recognisers as judges;
-  36 sentences and 70 showcase clips released.
+  100 sentences with their readings and 70 showcase clips released.
