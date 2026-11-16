@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this benchmark, please cite it as below."
+title: "Onepin Hard-Word Pronunciation Benchmark"
+version: "1.0"
+date-released: 2026-11-04
+type: dataset
+authors:
+  - name: "Podonos (Onepin Research)"
+    email: research@podonos.com
+    website: https://onepin.ai
+repository-code: https://github.com/onepinai/hard-word-benchmark
+license: CC-BY-4.0
+keywords:
+  - text-to-speech
+  - pronunciation
+  - proper nouns
+  - benchmark
+  - evaluation
+abstract: >-
+  How often 27 commercial text-to-speech models mispronounce 484 hard words in 100 US-English
+  sentences, and how much Onepin's pronunciation check and correction fixes, scored sound by sound
+  before and after correction. 2,700 clips, 13,068 hard-word readings, two phone recognisers as judges;
+  36 sentences and 70 showcase clips released.

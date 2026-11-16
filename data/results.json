@@ -1,0 +1,1647 @@
+{
+ "benchmark": "Onepin Hard-Word Pronunciation Benchmark",
+ "version": "1.0",
+ "date": "2026-10-16",
+ "set": {
+  "scripts": 100,
+  "hard_words_unique": 484,
+  "hard_word_occurrences": 13068,
+  "models": 27,
+  "provider_catalogues": 17,
+  "companies": 16,
+  "clips": 2700,
+  "voices_distinct": 1383,
+  "model_voice_combinations": 1613,
+  "audio_hours": 9.5,
+  "generated": "2026-09-20",
+  "language": "en-US",
+  "categories": 32
+ },
+ "judges": {
+  "ped": "PED, Onepin's phone recogniser (not released); espeak-ng phone set; pass threshold 0.25",
+  "heldout": "facebook/wav2vec2-lv-60-espeak-cv-ft, same aligner, fold ɾ→t ɐ→ə ᵻ→ɪ ʔ-dropped, same distance and threshold"
+ },
+ "configurations": {
+  "onepin": "Onepin's highest-quality setting (the headline)"
+ },
+ "statistics": "95 % intervals: cluster bootstrap over the 100 sentences, 2,000 draws",
+ "overall": {
+  "hwa_heldout_source": 41.46,
+  "hwa_heldout_source_ci": [
+   39.28,
+   43.62
+  ],
+  "clean_heldout_source": 1.33,
+  "clean_heldout_source_ci": [
+   0.63,
+   2.19
+  ],
+  "strict_heldout_source": 11.82,
+  "hwa_heldout_onepin": 67.84,
+  "hwa_heldout_onepin_ci": [
+   65.69,
+   69.97
+  ],
+  "clean_heldout_onepin": 16.22,
+  "clean_heldout_onepin_ci": [
+   13.37,
+   19.3
+  ],
+  "strict_heldout_onepin": 20.84,
+  "gain_heldout_onepin_vs_source": 26.38,
+  "gain_heldout_onepin_vs_source_ci": [
+   24.27,
+   28.44
+  ],
+  "hwa_ped_source": 44.83,
+  "hwa_ped_source_ci": [
+   42.12,
+   47.68
+  ],
+  "clean_ped_source": 2.04,
+  "clean_ped_source_ci": [
+   1.19,
+   3.04
+  ],
+  "strict_ped_source": 13.81,
+  "hwa_ped_onepin": 87.82,
+  "hwa_ped_onepin_ci": [
+   85.95,
+   89.73
+  ],
+  "clean_ped_onepin": 52.11,
+  "clean_ped_onepin_ci": [
+   46.07,
+   58.7
+  ],
+  "strict_ped_onepin": 25.74,
+  "gain_ped_onepin_vs_source": 42.98,
+  "gain_ped_onepin_vs_source_ci": [
+   40.63,
+   45.45
+  ],
+  "score_source": 89.95,
+  "score_source_ci": [
+   89.37,
+   90.54
+  ],
+  "score_onepin": 97.99,
+  "score_onepin_ci": [
+   97.7,
+   98.29
+  ]
+ },
+ "regressions": {
+  "heldout": {
+   "passed_in_source": 5418,
+   "failed_in_source": 7650,
+   "failed_after_onepin": 393,
+   "passed_after_onepin": 3840
+  },
+  "ped": {
+   "passed_in_source": 5859,
+   "failed_in_source": 7209,
+   "failed_after_onepin": 31,
+   "passed_after_onepin": 5648
+  }
+ },
+ "models": [
+  {
+   "provider_name": "Google Cloud",
+   "model": "gemini-3.1-flash-tts",
+   "voices": 30,
+   "n_words": 484,
+   "n_clips": 100,
+   "hwa_heldout_source": 55.37,
+   "clean_heldout_source": 5.0,
+   "hwa_heldout_onepin": 76.24,
+   "clean_heldout_onepin": 23.0,
+   "hwa_heldout_source_ci": [
+    51.02880658436214,
+    59.87525987525988
+   ],
+   "hwa_heldout_onepin_ci": [
+    72.72727272727273,
+    79.58762886597938
+   ],
+   "hwa_ped_source": 55.58,
+   "clean_ped_source": 6.0,
+   "hwa_ped_onepin": 89.88,
+   "clean_ped_onepin": 57.0,
+   "hwa_ped_source_ci": [
+    51.34020618556701,
+    60.08316008316008
+   ],
+   "hwa_ped_onepin_ci": [
+    87.42268041237114,
+    92.21311475409836
+   ],
+   "score_source": 92.32,
+   "score_onepin": 98.51
+  },
+  {
+   "provider_name": "Microsoft Azure",
+   "model": "mai-voice-2",
+   "voices": 6,
+   "n_words": 484,
+   "n_clips": 100,
+   "hwa_heldout_source": 51.45,
+   "clean_heldout_source": 1.0,
+   "hwa_heldout_onepin": 74.79,
+   "clean_heldout_onepin": 24.0,
+   "hwa_heldout_source_ci": [
+    47.72727272727273,
+    55.093555093555096
+   ],
+   "hwa_heldout_onepin_ci": [
+    70.69672131147541,
+    78.68852459016394
+   ],
+   "hwa_ped_source": 52.27,
+   "clean_ped_source": 2.0,
+   "hwa_ped_onepin": 90.29,
+   "clean_ped_onepin": 57.0,
+   "hwa_ped_source_ci": [
+    48.225469728601254,
+    56.53061224489796
+   ],
+   "hwa_ped_onepin_ci": [
+    87.88501026694045,
+    92.62295081967213
+   ],
+   "score_source": 91.83,
+   "score_onepin": 98.51
+  },
+  {
+   "provider_name": "Cartesia",
+   "model": "sonic-preview",
+   "voices": 100,
+   "n_words": 484,
+   "n_clips": 100,
+   "hwa_heldout_source": 50.21,
+   "clean_heldout_source": 0.0,
+   "hwa_heldout_onepin": 74.79,
+   "clean_heldout_onepin": 27.0,
+   "hwa_heldout_source_ci": [
+    45.9349593495935,
+    54.375
+   ],
+   "hwa_heldout_onepin_ci": [
+    70.89397089397089,
+    78.58627858627858
+   ],
+   "hwa_ped_source": 50.41,
+   "clean_ped_source": 4.0,
+   "hwa_ped_onepin": 88.84,
+   "clean_ped_onepin": 57.0,
+   "hwa_ped_source_ci": [
+    45.9958932238193,
+    54.805725971370144
+   ],
+   "hwa_ped_onepin_ci": [
+    85.89211618257261,
+    91.63179916317992
+   ],
+   "score_source": 91.4,
+   "score_onepin": 98.22
+  },
+  {
+   "provider_name": "ElevenLabs",
+   "model": "eleven_multilingual_v2",
+   "voices": 100,
+   "n_words": 484,
+   "n_clips": 100,
+   "hwa_heldout_source": 48.35,
+   "clean_heldout_source": 2.0,
+   "hwa_heldout_onepin": 68.18,
+   "clean_heldout_onepin": 16.0,
+   "hwa_heldout_source_ci": [
+    44.329896907216494,
+    52.291666666666664
+   ],
+   "hwa_heldout_onepin_ci": [
+    64.15478615071284,
+    72.31404958677686
+   ],
+   "hwa_ped_source": 50.41,
+   "clean_ped_source": 4.0,
+   "hwa_ped_onepin": 89.67,
+   "clean_ped_onepin": 53.0,
+   "hwa_ped_source_ci": [
+    45.9958932238193,
+    55.08130081300813
+   ],
+   "hwa_ped_onepin_ci": [
+    87.5,
+    91.875
+   ],
+   "score_source": 91.14,
+   "score_onepin": 98.3
+  },
+  {
+   "provider_name": "Inworld",
+   "model": "inworld-tts-2",
+   "voices": 96,
+   "n_words": 484,
+   "n_clips": 100,
+   "hwa_heldout_source": 47.52,
+   "clean_heldout_source": 3.0,
+   "hwa_heldout_onepin": 73.55,
+   "clean_heldout_onepin": 22.0,
+   "hwa_heldout_source_ci": [
+    42.67782426778243,
+    52.17391304347826
+   ],
+   "hwa_heldout_onepin_ci": [
+    69.48453608247422,
+    77.57201646090535
+   ],
+   "hwa_ped_source": 49.59,
+   "clean_ped_source": 3.0,
+   "hwa_ped_onepin": 90.7,
+   "clean_ped_onepin": 60.0,
+   "hwa_ped_source_ci": [
+    44.906444906444904,
+    54.583333333333336
+   ],
+   "hwa_ped_onepin_ci": [
+    88.24742268041237,
+    93.07535641547861
+   ],
+   "score_source": 90.99,
+   "score_onepin": 98.55
+  },
+  {
+   "provider_name": "Alibaba Qwen",
+   "model": "qwen-audio-3.0-tts-plus",
+   "voices": 10,
+   "n_words": 484,
+   "n_clips": 100,
+   "hwa_heldout_source": 46.69,
+   "clean_heldout_source": 2.0,
+   "hwa_heldout_onepin": 66.94,
+   "clean_heldout_onepin": 15.0,
+   "hwa_heldout_source_ci": [
+    42.35537190082645,
+    51.3347022587269
+   ],
+   "hwa_heldout_onepin_ci": [
+    62.11180124223603,
+    71.57464212678937
+   ],
+   "hwa_ped_source": 45.87,
+   "clean_ped_source": 2.0,
+   "hwa_ped_onepin": 85.74,
+   "clean_ped_onepin": 45.0,
+   "hwa_ped_source_ci": [
+    41.127348643006265,
+    50.81967213114754
+   ],
+   "hwa_ped_onepin_ci": [
+    82.85714285714286,
+    88.75255623721881
+   ],
+   "score_source": 90.31,
+   "score_onepin": 97.61
+  },
+  {
+   "provider_name": "OpenAI",
+   "model": "gpt-4o-mini-tts",
+   "voices": 13,
+   "n_words": 484,
+   "n_clips": 100,
+   "hwa_heldout_source": 46.69,
+   "clean_heldout_source": 5.0,
+   "hwa_heldout_onepin": 70.87,
+   "clean_heldout_onepin": 17.0,
+   "hwa_heldout_source_ci": [
+    42.41803278688525,
+    51.02040816326531
+   ],
+   "hwa_heldout_onepin_ci": [
+    66.8724279835391,
+    74.79338842975207
+   ],
+   "hwa_ped_source": 51.24,
+   "clean_ped_source": 3.0,
+   "hwa_ped_onepin": 89.67,
+   "clean_ped_onepin": 58.0,
+   "hwa_ped_source_ci": [
+    47.11934156378601,
+    55.64681724845996
+   ],
+   "hwa_ped_onepin_ci": [
+    86.92946058091286,
+    92.19712525667352
+   ],
+   "score_source": 91.49,
+   "score_onepin": 98.44
+  },
+  {
+   "provider_name": "Alibaba Qwen",
+   "model": "qwen-audio-3.0-tts-flash",
+   "voices": 20,
+   "n_words": 484,
+   "n_clips": 100,
+   "hwa_heldout_source": 45.25,
+   "clean_heldout_source": 2.0,
+   "hwa_heldout_onepin": 68.8,
+   "clean_heldout_onepin": 16.0,
+   "hwa_heldout_source_ci": [
+    40.89068825910931,
+    49.490835030549896
+   ],
+   "hwa_heldout_onepin_ci": [
+    64.24116424116424,
+    72.93388429752066
+   ],
+   "hwa_ped_source": 50.41,
+   "clean_ped_source": 2.0,
+   "hwa_ped_onepin": 86.16,
+   "clean_ped_onepin": 46.0,
+   "hwa_ped_source_ci": [
+    46.058091286307054,
+    54.583333333333336
+   ],
+   "hwa_ped_onepin_ci": [
+    83.23108384458078,
+    89.0721649484536
+   ],
+   "score_source": 91.39,
+   "score_onepin": 97.92
+  },
+  {
+   "provider_name": "Amazon Polly",
+   "model": "long-form",
+   "voices": 4,
+   "n_words": 484,
+   "n_clips": 100,
+   "hwa_heldout_source": 43.8,
+   "clean_heldout_source": 2.0,
+   "hwa_heldout_onepin": 70.87,
+   "clean_heldout_onepin": 17.0,
+   "hwa_heldout_source_ci": [
+    39.381443298969074,
+    47.93388429752066
+   ],
+   "hwa_heldout_onepin_ci": [
+    66.87370600414079,
+    74.63617463617463
+   ],
+   "hwa_ped_source": 46.07,
+   "clean_ped_source": 2.0,
+   "hwa_ped_onepin": 88.43,
+   "clean_ped_onepin": 51.0,
+   "hwa_ped_source_ci": [
+    41.99584199584199,
+    50.20746887966805
+   ],
+   "hwa_ped_onepin_ci": [
+    85.9504132231405,
+    90.98360655737704
+   ],
+   "score_source": 89.97,
+   "score_onepin": 98.32
+  },
+  {
+   "provider_name": "Microsoft Azure",
+   "model": "dragonhdlatestneural",
+   "voices": 15,
+   "n_words": 484,
+   "n_clips": 100,
+   "hwa_heldout_source": 43.39,
+   "clean_heldout_source": 2.0,
+   "hwa_heldout_onepin": 70.87,
+   "clean_heldout_onepin": 23.0,
+   "hwa_heldout_source_ci": [
+    39.09465020576132,
+    47.84394250513347
+   ],
+   "hwa_heldout_onepin_ci": [
+    66.52892561983471,
+    75.20491803278688
+   ],
+   "hwa_ped_source": 48.14,
+   "clean_ped_source": 3.0,
+   "hwa_ped_onepin": 88.22,
+   "clean_ped_onepin": 55.0,
+   "hwa_ped_source_ci": [
+    43.68530020703934,
+    52.904564315352694
+   ],
+   "hwa_ped_onepin_ci": [
+    85.44698544698545,
+    91.34020618556701
+   ],
+   "score_source": 90.64,
+   "score_onepin": 98.15
+  },
+  {
+   "provider_name": "ElevenLabs",
+   "model": "eleven_flash_v2_5",
+   "voices": 100,
+   "n_words": 484,
+   "n_clips": 100,
+   "hwa_heldout_source": 43.39,
+   "clean_heldout_source": 1.0,
+   "hwa_heldout_onepin": 63.43,
+   "clean_heldout_onepin": 12.0,
+   "hwa_heldout_source_ci": [
+    39.375,
+    47.628865979381445
+   ],
+   "hwa_heldout_onepin_ci": [
+    59.01639344262295,
+    68.0327868852459
+   ],
+   "hwa_ped_source": 47.52,
+   "clean_ped_source": 3.0,
+   "hwa_ped_onepin": 86.57,
+   "clean_ped_onepin": 44.0,
+   "hwa_ped_source_ci": [
+    43.388429752066116,
+    52.06611570247934
+   ],
+   "hwa_ped_onepin_ci": [
+    84.15637860082305,
+    89.1891891891892
+   ],
+   "score_source": 90.72,
+   "score_onepin": 97.75
+  },
+  {
+   "provider_name": "Inworld",
+   "model": "inworld-tts-1.5-max",
+   "voices": 96,
+   "n_words": 484,
+   "n_clips": 100,
+   "hwa_heldout_source": 43.18,
+   "clean_heldout_source": 1.0,
+   "hwa_heldout_onepin": 70.25,
+   "clean_heldout_onepin": 15.0,
+   "hwa_heldout_source_ci": [
+    39.256198347107436,
+    46.92622950819672
+   ],
+   "hwa_heldout_onepin_ci": [
+    66.45962732919254,
+    73.86831275720165
+   ],
+   "hwa_ped_source": 46.69,
+   "clean_ped_source": 1.0,
+   "hwa_ped_onepin": 89.67,
+   "clean_ped_onepin": 58.0,
+   "hwa_ped_source_ci": [
+    42.622950819672134,
+    50.73068893528184
+   ],
+   "hwa_ped_onepin_ci": [
+    87.09016393442623,
+    92.37113402061856
+   ],
+   "score_source": 90.43,
+   "score_onepin": 98.42
+  },
+  {
+   "provider_name": "Google Cloud",
+   "model": "wavenet",
+   "voices": 10,
+   "n_words": 484,
+   "n_clips": 100,
+   "hwa_heldout_source": 42.98,
+   "clean_heldout_source": 1.0,
+   "hwa_heldout_onepin": 70.66,
+   "clean_heldout_onepin": 15.0,
+   "hwa_heldout_source_ci": [
+    39.256198347107436,
+    47.18162839248434
+   ],
+   "hwa_heldout_onepin_ci": [
+    67.14285714285714,
+    74.16666666666667
+   ],
+   "hwa_ped_source": 45.25,
+   "clean_ped_source": 2.0,
+   "hwa_ped_onepin": 90.08,
+   "clean_ped_onepin": 55.0,
+   "hwa_ped_source_ci": [
+    41.200828157349896,
+    49.79338842975206
+   ],
+   "hwa_ped_onepin_ci": [
+    87.96680497925311,
+    92.33954451345755
+   ],
+   "score_source": 90.12,
+   "score_onepin": 98.47
+  },
+  {
+   "provider_name": "Provider B",
+   "model": "undisclosed",
+   "voices": 28,
+   "n_words": 484,
+   "n_clips": 100,
+   "hwa_heldout_source": 42.56,
+   "clean_heldout_source": 0.0,
+   "hwa_heldout_onepin": 69.63,
+   "clean_heldout_onepin": 19.0,
+   "hwa_heldout_source_ci": [
+    38.114754098360656,
+    47.21649484536083
+   ],
+   "hwa_heldout_onepin_ci": [
+    65.63786008230453,
+    73.51129363449692
+   ],
+   "hwa_ped_source": 44.83,
+   "clean_ped_source": 2.0,
+   "hwa_ped_onepin": 89.26,
+   "clean_ped_onepin": 57.0,
+   "hwa_ped_source_ci": [
+    40.20618556701031,
+    49.69199178644764
+   ],
+   "hwa_ped_onepin_ci": [
+    86.43006263048017,
+    92.0335429769392
+   ],
+   "score_source": 90.26,
+   "score_onepin": 98.36
+  },
+  {
+   "provider_name": "Gradium",
+   "model": "default",
+   "voices": 100,
+   "n_words": 484,
+   "n_clips": 100,
+   "hwa_heldout_source": 41.94,
+   "clean_heldout_source": 1.0,
+   "hwa_heldout_onepin": 67.36,
+   "clean_heldout_onepin": 10.0,
+   "hwa_heldout_source_ci": [
+    37.96680497925311,
+    45.77319587628866
+   ],
+   "hwa_heldout_onepin_ci": [
+    63.768115942028984,
+    70.9812108559499
+   ],
+   "hwa_ped_source": 43.39,
+   "clean_ped_source": 0.0,
+   "hwa_ped_onepin": 87.81,
+   "clean_ped_onepin": 53.0,
+   "hwa_ped_source_ci": [
+    39.22764227642276,
+    47.43326488706366
+   ],
+   "hwa_ped_onepin_ci": [
+    84.9686847599165,
+    90.75975359342915
+   ],
+   "score_source": 89.86,
+   "score_onepin": 98.06
+  },
+  {
+   "provider_name": "MiniMax",
+   "model": "speech-2.8-hd",
+   "voices": 89,
+   "n_words": 484,
+   "n_clips": 100,
+   "hwa_heldout_source": 41.74,
+   "clean_heldout_source": 1.0,
+   "hwa_heldout_onepin": 64.67,
+   "clean_heldout_onepin": 12.0,
+   "hwa_heldout_source_ci": [
+    37.39837398373984,
+    46.2962962962963
+   ],
+   "hwa_heldout_onepin_ci": [
+    60.0,
+    68.93004115226337
+   ],
+   "hwa_ped_source": 46.49,
+   "clean_ped_source": 1.0,
+   "hwa_ped_onepin": 86.98,
+   "clean_ped_onepin": 51.0,
+   "hwa_ped_source_ci": [
+    42.016806722689076,
+    51.12016293279022
+   ],
+   "hwa_ped_onepin_ci": [
+    83.95833333333333,
+    89.95901639344262
+   ],
+   "score_source": 90.47,
+   "score_onepin": 97.83
+  },
+  {
+   "provider_name": "ElevenLabs",
+   "model": "eleven_turbo_v2_5",
+   "voices": 100,
+   "n_words": 484,
+   "n_clips": 100,
+   "hwa_heldout_source": 41.53,
+   "clean_heldout_source": 0.0,
+   "hwa_heldout_onepin": 57.02,
+   "clean_heldout_onepin": 6.0,
+   "hwa_heldout_source_ci": [
+    37.62993762993763,
+    45.56701030927835
+   ],
+   "hwa_heldout_onepin_ci": [
+    52.5879917184265,
+    61.72839506172839
+   ],
+   "hwa_ped_source": 47.73,
+   "clean_ped_source": 2.0,
+   "hwa_ped_onepin": 85.12,
+   "clean_ped_onepin": 44.0,
+   "hwa_ped_source_ci": [
+    43.82716049382716,
+    51.67364016736402
+   ],
+   "hwa_ped_onepin_ci": [
+    81.9327731092437,
+    88.02521008403362
+   ],
+   "score_source": 90.61,
+   "score_onepin": 97.37
+  },
+  {
+   "provider_name": "Microsoft Azure",
+   "model": "neural",
+   "voices": 71,
+   "n_words": 484,
+   "n_clips": 100,
+   "hwa_heldout_source": 41.32,
+   "clean_heldout_source": 1.0,
+   "hwa_heldout_onepin": 71.49,
+   "clean_heldout_onepin": 23.0,
+   "hwa_heldout_source_ci": [
+    37.44855967078189,
+    45.43568464730291
+   ],
+   "hwa_heldout_onepin_ci": [
+    66.94214876033058,
+    75.87628865979381
+   ],
+   "hwa_ped_source": 43.18,
+   "clean_ped_source": 5.0,
+   "hwa_ped_onepin": 87.6,
+   "clean_ped_onepin": 50.0,
+   "hwa_ped_source_ci": [
+    38.55670103092783,
+    48.01670146137787
+   ],
+   "hwa_ped_onepin_ci": [
+    84.97942386831275,
+    90.22869022869023
+   ],
+   "score_source": 89.66,
+   "score_onepin": 98.14
+  },
+  {
+   "provider_name": "ElevenLabs",
+   "model": "eleven_v3",
+   "voices": 100,
+   "n_words": 484,
+   "n_clips": 100,
+   "hwa_heldout_source": 40.91,
+   "clean_heldout_source": 3.0,
+   "hwa_heldout_onepin": 58.06,
+   "clean_heldout_onepin": 15.0,
+   "hwa_heldout_source_ci": [
+    35.950413223140494,
+    45.790554414784395
+   ],
+   "hwa_heldout_onepin_ci": [
+    52.371134020618555,
+    64.12371134020619
+   ],
+   "hwa_ped_source": 47.52,
+   "clean_ped_source": 3.0,
+   "hwa_ped_onepin": 82.44,
+   "clean_ped_onepin": 47.0,
+   "hwa_ped_source_ci": [
+    42.82786885245902,
+    52.36139630390144
+   ],
+   "hwa_ped_onepin_ci": [
+    78.05383022774328,
+    86.36363636363636
+   ],
+   "score_source": 89.96,
+   "score_onepin": 96.91
+  },
+  {
+   "provider_name": "Fish Audio",
+   "model": "s2-pro",
+   "voices": 95,
+   "n_words": 484,
+   "n_clips": 100,
+   "hwa_heldout_source": 37.6,
+   "clean_heldout_source": 1.0,
+   "hwa_heldout_onepin": 67.36,
+   "clean_heldout_onepin": 16.0,
+   "hwa_heldout_source_ci": [
+    33.19672131147541,
+    42.14876033057851
+   ],
+   "hwa_heldout_onepin_ci": [
+    62.863070539419084,
+    71.78423236514523
+   ],
+   "hwa_ped_source": 42.77,
+   "clean_ped_source": 1.0,
+   "hwa_ped_onepin": 87.4,
+   "clean_ped_onepin": 51.0,
+   "hwa_ped_source_ci": [
+    38.55670103092783,
+    47.095435684647306
+   ],
+   "hwa_ped_onepin_ci": [
+    84.48979591836735,
+    90.1639344262295
+   ],
+   "score_source": 89.68,
+   "score_onepin": 98.04
+  },
+  {
+   "provider_name": "Cartesia",
+   "model": "sonic-3.5",
+   "voices": 100,
+   "n_words": 484,
+   "n_clips": 100,
+   "hwa_heldout_source": 37.4,
+   "clean_heldout_source": 1.0,
+   "hwa_heldout_onepin": 69.83,
+   "clean_heldout_onepin": 17.0,
+   "hwa_heldout_source_ci": [
+    33.471933471933475,
+    41.299790356394126
+   ],
+   "hwa_heldout_onepin_ci": [
+    65.84362139917695,
+    73.56557377049181
+   ],
+   "hwa_ped_source": 43.39,
+   "clean_ped_source": 1.0,
+   "hwa_ped_onepin": 89.46,
+   "clean_ped_onepin": 56.0,
+   "hwa_ped_source_ci": [
+    39.219712525667354,
+    47.43326488706366
+   ],
+   "hwa_ped_onepin_ci": [
+    86.95652173913044,
+    91.9917864476386
+   ],
+   "score_source": 89.81,
+   "score_onepin": 98.38
+  },
+  {
+   "provider_name": "Rime",
+   "model": "coda",
+   "voices": 100,
+   "n_words": 484,
+   "n_clips": 100,
+   "hwa_heldout_source": 36.57,
+   "clean_heldout_source": 0.0,
+   "hwa_heldout_onepin": 64.67,
+   "clean_heldout_onepin": 15.0,
+   "hwa_heldout_source_ci": [
+    32.365145228215766,
+    40.70247933884298
+   ],
+   "hwa_heldout_onepin_ci": [
+    60.369609856262834,
+    68.8659793814433
+   ],
+   "hwa_ped_source": 39.46,
+   "clean_ped_source": 0.0,
+   "hwa_ped_onepin": 87.81,
+   "clean_ped_onepin": 52.0,
+   "hwa_ped_source_ci": [
+    35.4639175257732,
+    43.73716632443532
+   ],
+   "hwa_ped_onepin_ci": [
+    84.90566037735849,
+    90.66390041493776
+   ],
+   "score_source": 88.77,
+   "score_onepin": 97.86
+  },
+  {
+   "provider_name": "Provider A",
+   "model": "undisclosed",
+   "voices": 36,
+   "n_words": 484,
+   "n_clips": 100,
+   "hwa_heldout_source": 35.95,
+   "clean_heldout_source": 1.0,
+   "hwa_heldout_onepin": 71.07,
+   "clean_heldout_onepin": 19.0,
+   "hwa_heldout_source_ci": [
+    31.632653061224488,
+    40.04149377593361
+   ],
+   "hwa_heldout_onepin_ci": [
+    67.28395061728395,
+    75.0
+   ],
+   "hwa_ped_source": 39.26,
+   "clean_ped_source": 1.0,
+   "hwa_ped_onepin": 88.02,
+   "clean_ped_onepin": 55.0,
+   "hwa_ped_source_ci": [
+    34.85477178423236,
+    43.73716632443532
+   ],
+   "hwa_ped_onepin_ci": [
+    85.12396694214875,
+    91.00204498977506
+   ],
+   "score_source": 88.78,
+   "score_onepin": 98.09
+  },
+  {
+   "provider_name": "Respeecher",
+   "model": "respeecher-tts",
+   "voices": 25,
+   "n_words": 484,
+   "n_clips": 100,
+   "hwa_heldout_source": 34.09,
+   "clean_heldout_source": 0.0,
+   "hwa_heldout_onepin": 64.46,
+   "clean_heldout_onepin": 11.0,
+   "hwa_heldout_source_ci": [
+    30.59071729957806,
+    37.42203742203742
+   ],
+   "hwa_heldout_onepin_ci": [
+    60.041407867494826,
+    68.73706004140787
+   ],
+   "hwa_ped_source": 38.64,
+   "clean_ped_source": 2.0,
+   "hwa_ped_onepin": 86.36,
+   "clean_ped_onepin": 47.0,
+   "hwa_ped_source_ci": [
+    34.63917525773196,
+    42.71047227926078
+   ],
+   "hwa_ped_onepin_ci": [
+    83.4368530020704,
+    89.16666666666667
+   ],
+   "score_source": 88.16,
+   "score_onepin": 97.53
+  },
+  {
+   "provider_name": "Naver",
+   "model": "clova",
+   "voices": 6,
+   "n_words": 484,
+   "n_clips": 100,
+   "hwa_heldout_source": 28.93,
+   "clean_heldout_source": 0.0,
+   "hwa_heldout_onepin": 67.36,
+   "clean_heldout_onepin": 15.0,
+   "hwa_heldout_source_ci": [
+    25.42016806722689,
+    32.577319587628864
+   ],
+   "hwa_heldout_onepin_ci": [
+    63.25678496868476,
+    71.42857142857143
+   ],
+   "hwa_ped_source": 35.33,
+   "clean_ped_source": 0.0,
+   "hwa_ped_onepin": 89.88,
+   "clean_ped_onepin": 59.0,
+   "hwa_ped_source_ci": [
+    31.53526970954357,
+    39.33747412008282
+   ],
+   "hwa_ped_onepin_ci": [
+    87.1951219512195,
+    92.54658385093168
+   ],
+   "score_source": 87.87,
+   "score_onepin": 98.41
+  },
+  {
+   "provider_name": "Rime",
+   "model": "mistv2",
+   "voices": 100,
+   "n_words": 484,
+   "n_clips": 100,
+   "hwa_heldout_source": 26.65,
+   "clean_heldout_source": 0.0,
+   "hwa_heldout_onepin": 64.67,
+   "clean_heldout_onepin": 10.0,
+   "hwa_heldout_source_ci": [
+    22.821576763485478,
+    30.515463917525775
+   ],
+   "hwa_heldout_onepin_ci": [
+    60.58091286307054,
+    68.60706860706861
+   ],
+   "hwa_ped_source": 30.79,
+   "clean_ped_source": 0.0,
+   "hwa_ped_onepin": 85.74,
+   "clean_ped_onepin": 42.0,
+   "hwa_ped_source_ci": [
+    27.12215320910973,
+    34.90759753593429
+   ],
+   "hwa_ped_onepin_ci": [
+    83.09278350515464,
+    88.33333333333333
+   ],
+   "score_source": 86.14,
+   "score_onepin": 96.98
+  },
+  {
+   "provider_name": "Respeecher Marketplace",
+   "model": "marketplace",
+   "voices": 63,
+   "n_words": 484,
+   "n_clips": 100,
+   "hwa_heldout_source": 23.97,
+   "clean_heldout_source": 0.0,
+   "hwa_heldout_onepin": 53.72,
+   "clean_heldout_onepin": 8.0,
+   "hwa_heldout_source_ci": [
+    20.208333333333332,
+    27.916666666666668
+   ],
+   "hwa_heldout_onepin_ci": [
+    48.472505091649694,
+    58.83575883575884
+   ],
+   "hwa_ped_source": 28.31,
+   "clean_ped_source": 0.0,
+   "hwa_ped_onepin": 83.26,
+   "clean_ped_onepin": 47.0,
+   "hwa_ped_source_ci": [
+    24.22360248447205,
+    32.377049180327866
+   ],
+   "hwa_ped_onepin_ci": [
+    79.62962962962963,
+    86.77685950413223
+   ],
+   "score_source": 85.89,
+   "score_onepin": 96.62
+  }
+ ],
+ "providers": [
+  {
+   "provider_name": "Google Cloud",
+   "models": [
+    "gemini-3.1-flash-tts",
+    "wavenet"
+   ],
+   "n_words": 968,
+   "n_clips": 200,
+   "hwa_heldout_source": 49.17,
+   "clean_heldout_source": 3.0,
+   "hwa_heldout_onepin": 73.45,
+   "clean_heldout_onepin": 19.0,
+   "hwa_ped_source": 50.41,
+   "clean_ped_source": 4.0,
+   "hwa_ped_onepin": 89.98,
+   "clean_ped_onepin": 56.0,
+   "score_source": 91.22,
+   "score_onepin": 98.49
+  },
+  {
+   "provider_name": "OpenAI",
+   "models": [
+    "gpt-4o-mini-tts"
+   ],
+   "n_words": 484,
+   "n_clips": 100,
+   "hwa_heldout_source": 46.69,
+   "clean_heldout_source": 5.0,
+   "hwa_heldout_onepin": 70.87,
+   "clean_heldout_onepin": 17.0,
+   "hwa_ped_source": 51.24,
+   "clean_ped_source": 3.0,
+   "hwa_ped_onepin": 89.67,
+   "clean_ped_onepin": 58.0,
+   "score_source": 91.49,
+   "score_onepin": 98.44
+  },
+  {
+   "provider_name": "Alibaba Qwen",
+   "models": [
+    "qwen-audio-3.0-tts-flash",
+    "qwen-audio-3.0-tts-plus"
+   ],
+   "n_words": 968,
+   "n_clips": 200,
+   "hwa_heldout_source": 45.97,
+   "clean_heldout_source": 2.0,
+   "hwa_heldout_onepin": 67.87,
+   "clean_heldout_onepin": 15.5,
+   "hwa_ped_source": 48.14,
+   "clean_ped_source": 2.0,
+   "hwa_ped_onepin": 85.95,
+   "clean_ped_onepin": 45.5,
+   "score_source": 90.85,
+   "score_onepin": 97.77
+  },
+  {
+   "provider_name": "Microsoft Azure",
+   "models": [
+    "dragonhdlatestneural",
+    "mai-voice-2",
+    "neural"
+   ],
+   "n_words": 1452,
+   "n_clips": 300,
+   "hwa_heldout_source": 45.39,
+   "clean_heldout_source": 1.33,
+   "hwa_heldout_onepin": 72.38,
+   "clean_heldout_onepin": 23.33,
+   "hwa_ped_source": 47.87,
+   "clean_ped_source": 3.33,
+   "hwa_ped_onepin": 88.71,
+   "clean_ped_onepin": 54.0,
+   "score_source": 90.71,
+   "score_onepin": 98.27
+  },
+  {
+   "provider_name": "Inworld",
+   "models": [
+    "inworld-tts-1.5-max",
+    "inworld-tts-2"
+   ],
+   "n_words": 968,
+   "n_clips": 200,
+   "hwa_heldout_source": 45.35,
+   "clean_heldout_source": 2.0,
+   "hwa_heldout_onepin": 71.9,
+   "clean_heldout_onepin": 18.5,
+   "hwa_ped_source": 48.14,
+   "clean_ped_source": 2.0,
+   "hwa_ped_onepin": 90.19,
+   "clean_ped_onepin": 59.0,
+   "score_source": 90.71,
+   "score_onepin": 98.49
+  },
+  {
+   "provider_name": "Amazon Polly",
+   "models": [
+    "long-form"
+   ],
+   "n_words": 484,
+   "n_clips": 100,
+   "hwa_heldout_source": 43.8,
+   "clean_heldout_source": 2.0,
+   "hwa_heldout_onepin": 70.87,
+   "clean_heldout_onepin": 17.0,
+   "hwa_ped_source": 46.07,
+   "clean_ped_source": 2.0,
+   "hwa_ped_onepin": 88.43,
+   "clean_ped_onepin": 51.0,
+   "score_source": 89.97,
+   "score_onepin": 98.32
+  },
+  {
+   "provider_name": "Cartesia",
+   "models": [
+    "sonic-3.5",
+    "sonic-preview"
+   ],
+   "n_words": 968,
+   "n_clips": 200,
+   "hwa_heldout_source": 43.8,
+   "clean_heldout_source": 0.5,
+   "hwa_heldout_onepin": 72.31,
+   "clean_heldout_onepin": 22.0,
+   "hwa_ped_source": 46.9,
+   "clean_ped_source": 2.5,
+   "hwa_ped_onepin": 89.15,
+   "clean_ped_onepin": 56.5,
+   "score_source": 90.6,
+   "score_onepin": 98.3
+  },
+  {
+   "provider_name": "ElevenLabs",
+   "models": [
+    "eleven_flash_v2_5",
+    "eleven_multilingual_v2",
+    "eleven_turbo_v2_5",
+    "eleven_v3"
+   ],
+   "n_words": 1936,
+   "n_clips": 400,
+   "hwa_heldout_source": 43.54,
+   "clean_heldout_source": 1.5,
+   "hwa_heldout_onepin": 61.67,
+   "clean_heldout_onepin": 12.25,
+   "hwa_ped_source": 48.3,
+   "clean_ped_source": 3.0,
+   "hwa_ped_onepin": 85.95,
+   "clean_ped_onepin": 47.0,
+   "score_source": 90.61,
+   "score_onepin": 97.58
+  },
+  {
+   "provider_name": "Provider B",
+   "models": [
+    "undisclosed"
+   ],
+   "n_words": 484,
+   "n_clips": 100,
+   "hwa_heldout_source": 42.56,
+   "clean_heldout_source": 0.0,
+   "hwa_heldout_onepin": 69.63,
+   "clean_heldout_onepin": 19.0,
+   "hwa_ped_source": 44.83,
+   "clean_ped_source": 2.0,
+   "hwa_ped_onepin": 89.26,
+   "clean_ped_onepin": 57.0,
+   "score_source": 90.26,
+   "score_onepin": 98.36
+  },
+  {
+   "provider_name": "Gradium",
+   "models": [
+    "default"
+   ],
+   "n_words": 484,
+   "n_clips": 100,
+   "hwa_heldout_source": 41.94,
+   "clean_heldout_source": 1.0,
+   "hwa_heldout_onepin": 67.36,
+   "clean_heldout_onepin": 10.0,
+   "hwa_ped_source": 43.39,
+   "clean_ped_source": 0.0,
+   "hwa_ped_onepin": 87.81,
+   "clean_ped_onepin": 53.0,
+   "score_source": 89.86,
+   "score_onepin": 98.06
+  },
+  {
+   "provider_name": "MiniMax",
+   "models": [
+    "speech-2.8-hd"
+   ],
+   "n_words": 484,
+   "n_clips": 100,
+   "hwa_heldout_source": 41.74,
+   "clean_heldout_source": 1.0,
+   "hwa_heldout_onepin": 64.67,
+   "clean_heldout_onepin": 12.0,
+   "hwa_ped_source": 46.49,
+   "clean_ped_source": 1.0,
+   "hwa_ped_onepin": 86.98,
+   "clean_ped_onepin": 51.0,
+   "score_source": 90.47,
+   "score_onepin": 97.83
+  },
+  {
+   "provider_name": "Fish Audio",
+   "models": [
+    "s2-pro"
+   ],
+   "n_words": 484,
+   "n_clips": 100,
+   "hwa_heldout_source": 37.6,
+   "clean_heldout_source": 1.0,
+   "hwa_heldout_onepin": 67.36,
+   "clean_heldout_onepin": 16.0,
+   "hwa_ped_source": 42.77,
+   "clean_ped_source": 1.0,
+   "hwa_ped_onepin": 87.4,
+   "clean_ped_onepin": 51.0,
+   "score_source": 89.68,
+   "score_onepin": 98.04
+  },
+  {
+   "provider_name": "Provider A",
+   "models": [
+    "undisclosed"
+   ],
+   "n_words": 484,
+   "n_clips": 100,
+   "hwa_heldout_source": 35.95,
+   "clean_heldout_source": 1.0,
+   "hwa_heldout_onepin": 71.07,
+   "clean_heldout_onepin": 19.0,
+   "hwa_ped_source": 39.26,
+   "clean_ped_source": 1.0,
+   "hwa_ped_onepin": 88.02,
+   "clean_ped_onepin": 55.0,
+   "score_source": 88.78,
+   "score_onepin": 98.09
+  },
+  {
+   "provider_name": "Respeecher",
+   "models": [
+    "respeecher-tts"
+   ],
+   "n_words": 484,
+   "n_clips": 100,
+   "hwa_heldout_source": 34.09,
+   "clean_heldout_source": 0.0,
+   "hwa_heldout_onepin": 64.46,
+   "clean_heldout_onepin": 11.0,
+   "hwa_ped_source": 38.64,
+   "clean_ped_source": 2.0,
+   "hwa_ped_onepin": 86.36,
+   "clean_ped_onepin": 47.0,
+   "score_source": 88.16,
+   "score_onepin": 97.53
+  },
+  {
+   "provider_name": "Rime",
+   "models": [
+    "coda",
+    "mistv2"
+   ],
+   "n_words": 968,
+   "n_clips": 200,
+   "hwa_heldout_source": 31.61,
+   "clean_heldout_source": 0.0,
+   "hwa_heldout_onepin": 64.67,
+   "clean_heldout_onepin": 12.5,
+   "hwa_ped_source": 35.12,
+   "clean_ped_source": 0.0,
+   "hwa_ped_onepin": 86.78,
+   "clean_ped_onepin": 47.0,
+   "score_source": 87.46,
+   "score_onepin": 97.42
+  },
+  {
+   "provider_name": "Naver",
+   "models": [
+    "clova"
+   ],
+   "n_words": 484,
+   "n_clips": 100,
+   "hwa_heldout_source": 28.93,
+   "clean_heldout_source": 0.0,
+   "hwa_heldout_onepin": 67.36,
+   "clean_heldout_onepin": 15.0,
+   "hwa_ped_source": 35.33,
+   "clean_ped_source": 0.0,
+   "hwa_ped_onepin": 89.88,
+   "clean_ped_onepin": 59.0,
+   "score_source": 87.87,
+   "score_onepin": 98.41
+  },
+  {
+   "provider_name": "Respeecher Marketplace",
+   "models": [
+    "marketplace"
+   ],
+   "n_words": 484,
+   "n_clips": 100,
+   "hwa_heldout_source": 23.97,
+   "clean_heldout_source": 0.0,
+   "hwa_heldout_onepin": 53.72,
+   "clean_heldout_onepin": 8.0,
+   "hwa_ped_source": 28.31,
+   "clean_ped_source": 0.0,
+   "hwa_ped_onepin": 83.26,
+   "clean_ped_onepin": 47.0,
+   "score_source": 85.89,
+   "score_onepin": 96.62
+  }
+ ],
+ "categories": [
+  {
+   "category": "place_city",
+   "label": "City",
+   "unique_words": 51,
+   "occurrences": 1377,
+   "hwa_heldout_source": 33.77,
+   "hwa_heldout_onepin": 63.91,
+   "hwa_ped_source": 36.24,
+   "hwa_ped_onepin": 83.08
+  },
+  {
+   "category": "mythology",
+   "label": "Mythology",
+   "unique_words": 39,
+   "occurrences": 1053,
+   "hwa_heldout_source": 37.23,
+   "hwa_heldout_onepin": 65.53,
+   "hwa_ped_source": 40.84,
+   "hwa_ped_onepin": 87.75
+  },
+  {
+   "category": "person",
+   "label": "Person",
+   "unique_words": 29,
+   "occurrences": 783,
+   "hwa_heldout_source": 36.65,
+   "hwa_heldout_onepin": 64.88,
+   "hwa_ped_source": 42.91,
+   "hwa_ped_onepin": 83.91
+  },
+  {
+   "category": "medicine",
+   "label": "Medicine (drug, condition)",
+   "unique_words": 26,
+   "occurrences": 702,
+   "hwa_heldout_source": 55.84,
+   "hwa_heldout_onepin": 72.65,
+   "hwa_ped_source": 60.83,
+   "hwa_ped_onepin": 91.88
+  },
+  {
+   "category": "archaeological_site",
+   "label": "Archaeological site",
+   "unique_words": 26,
+   "occurrences": 702,
+   "hwa_heldout_source": 47.15,
+   "hwa_heldout_onepin": 77.92,
+   "hwa_ped_source": 47.29,
+   "hwa_ped_onepin": 93.59
+  },
+  {
+   "category": "arch_religious",
+   "label": "Religious building",
+   "unique_words": 24,
+   "occurrences": 648,
+   "hwa_heldout_source": 29.32,
+   "hwa_heldout_onepin": 67.75,
+   "hwa_ped_source": 35.03,
+   "hwa_ped_onepin": 89.81
+  },
+  {
+   "category": "mountain_combined",
+   "label": "Mountain",
+   "unique_words": 20,
+   "occurrences": 540,
+   "hwa_heldout_source": 41.3,
+   "hwa_heldout_onepin": 65.37,
+   "hwa_ped_source": 41.67,
+   "hwa_ped_onepin": 76.85
+  },
+  {
+   "category": "university",
+   "label": "University",
+   "unique_words": 17,
+   "occurrences": 459,
+   "hwa_heldout_source": 37.91,
+   "hwa_heldout_onepin": 54.68,
+   "hwa_ped_source": 45.97,
+   "hwa_ped_onepin": 77.56
+  },
+  {
+   "category": "astro_small_body",
+   "label": "Asteroid or comet",
+   "unique_words": 17,
+   "occurrences": 459,
+   "hwa_heldout_source": 32.9,
+   "hwa_heldout_onepin": 65.8,
+   "hwa_ped_source": 38.56,
+   "hwa_ped_onepin": 92.59
+  },
+  {
+   "category": "food",
+   "label": "Food",
+   "unique_words": 16,
+   "occurrences": 432,
+   "hwa_heldout_source": 41.67,
+   "hwa_heldout_onepin": 58.1,
+   "hwa_ped_source": 50.0,
+   "hwa_ped_onepin": 94.44
+  },
+  {
+   "category": "geo_river",
+   "label": "River",
+   "unique_words": 16,
+   "occurrences": 432,
+   "hwa_heldout_source": 29.63,
+   "hwa_heldout_onepin": 60.19,
+   "hwa_ped_source": 30.56,
+   "hwa_ped_onepin": 81.25
+  },
+  {
+   "category": "vehicle_ship",
+   "label": "Ship",
+   "unique_words": 14,
+   "occurrences": 378,
+   "hwa_heldout_source": 43.92,
+   "hwa_heldout_onepin": 66.93,
+   "hwa_ped_source": 47.09,
+   "hwa_ped_onepin": 85.98
+  },
+  {
+   "category": "art_movement",
+   "label": "Art movement",
+   "unique_words": 14,
+   "occurrences": 378,
+   "hwa_heldout_source": 45.77,
+   "hwa_heldout_onepin": 67.99,
+   "hwa_ped_source": 50.79,
+   "hwa_ped_onepin": 87.57
+  },
+  {
+   "category": "sport",
+   "label": "Sport",
+   "unique_words": 14,
+   "occurrences": 378,
+   "hwa_heldout_source": 60.05,
+   "hwa_heldout_onepin": 83.33,
+   "hwa_ped_source": 65.34,
+   "hwa_ped_onepin": 96.83
+  },
+  {
+   "category": "battle",
+   "label": "Battle",
+   "unique_words": 13,
+   "occurrences": 351,
+   "hwa_heldout_source": 36.47,
+   "hwa_heldout_onepin": 68.95,
+   "hwa_ped_source": 35.33,
+   "hwa_ped_onepin": 86.89
+  },
+  {
+   "category": "geo_volcano",
+   "label": "Volcano",
+   "unique_words": 13,
+   "occurrences": 351,
+   "hwa_heldout_source": 32.19,
+   "hwa_heldout_onepin": 60.4,
+   "hwa_ped_source": 27.64,
+   "hwa_ped_onepin": 74.07
+  },
+  {
+   "category": "geo_island",
+   "label": "Island",
+   "unique_words": 13,
+   "occurrences": 351,
+   "hwa_heldout_source": 31.91,
+   "hwa_heldout_onepin": 67.81,
+   "hwa_ped_source": 31.05,
+   "hwa_ped_onepin": 83.19
+  },
+  {
+   "category": "music_genre",
+   "label": "Music genre",
+   "unique_words": 12,
+   "occurrences": 324,
+   "hwa_heldout_source": 45.06,
+   "hwa_heldout_onepin": 68.21,
+   "hwa_ped_source": 45.06,
+   "hwa_ped_onepin": 91.98
+  },
+  {
+   "category": "national_park",
+   "label": "National park",
+   "unique_words": 12,
+   "occurrences": 324,
+   "hwa_heldout_source": 42.28,
+   "hwa_heldout_onepin": 60.8,
+   "hwa_ped_source": 46.6,
+   "hwa_ped_onepin": 92.28
+  },
+  {
+   "category": "software",
+   "label": "Software",
+   "unique_words": 11,
+   "occurrences": 297,
+   "hwa_heldout_source": 66.67,
+   "hwa_heldout_onepin": 87.54,
+   "hwa_ped_source": 74.07,
+   "hwa_ped_onepin": 98.99
+  },
+  {
+   "category": "company",
+   "label": "Company",
+   "unique_words": 10,
+   "occurrences": 270,
+   "hwa_heldout_source": 72.96,
+   "hwa_heldout_onepin": 81.11,
+   "hwa_ped_source": 72.59,
+   "hwa_ped_onepin": 95.56
+  },
+  {
+   "category": "dance_form",
+   "label": "Dance",
+   "unique_words": 10,
+   "occurrences": 270,
+   "hwa_heldout_source": 36.67,
+   "hwa_heldout_onepin": 60.0,
+   "hwa_ped_source": 46.3,
+   "hwa_ped_onepin": 92.22
+  },
+  {
+   "category": "arch_fortress",
+   "label": "Fortress",
+   "unique_words": 9,
+   "occurrences": 243,
+   "hwa_heldout_source": 41.98,
+   "hwa_heldout_onepin": 76.54,
+   "hwa_ped_source": 34.98,
+   "hwa_ped_onepin": 96.3
+  },
+  {
+   "category": "brand",
+   "label": "Brand",
+   "unique_words": 9,
+   "occurrences": 243,
+   "hwa_heldout_source": 39.09,
+   "hwa_heldout_onepin": 77.78,
+   "hwa_ped_source": 45.68,
+   "hwa_ped_onepin": 90.95
+  },
+  {
+   "category": "geo_lake",
+   "label": "Lake",
+   "unique_words": 8,
+   "occurrences": 216,
+   "hwa_heldout_source": 30.56,
+   "hwa_heldout_onepin": 63.43,
+   "hwa_ped_source": 37.04,
+   "hwa_ped_onepin": 91.2
+  },
+  {
+   "category": "arch_museum",
+   "label": "Museum",
+   "unique_words": 7,
+   "occurrences": 189,
+   "hwa_heldout_source": 43.39,
+   "hwa_heldout_onepin": 69.31,
+   "hwa_ped_source": 49.21,
+   "hwa_ped_onepin": 90.48
+  },
+  {
+   "category": "video_game",
+   "label": "Video game",
+   "unique_words": 7,
+   "occurrences": 189,
+   "hwa_heldout_source": 47.62,
+   "hwa_heldout_onepin": 60.32,
+   "hwa_ped_source": 55.56,
+   "hwa_ped_onepin": 82.01
+  },
+  {
+   "category": "railway_station",
+   "label": "Railway station",
+   "unique_words": 6,
+   "occurrences": 162,
+   "hwa_heldout_source": 54.32,
+   "hwa_heldout_onepin": 78.4,
+   "hwa_ped_source": 50.62,
+   "hwa_ped_onepin": 82.1
+  },
+  {
+   "category": "music_group",
+   "label": "Music group",
+   "unique_words": 6,
+   "occurrences": 162,
+   "hwa_heldout_source": 45.68,
+   "hwa_heldout_onepin": 72.84,
+   "hwa_ped_source": 47.53,
+   "hwa_ped_onepin": 93.21
+  },
+  {
+   "category": "holiday",
+   "label": "Holiday",
+   "unique_words": 6,
+   "occurrences": 162,
+   "hwa_heldout_source": 40.12,
+   "hwa_heldout_onepin": 61.11,
+   "hwa_ped_source": 41.98,
+   "hwa_ped_onepin": 80.86
+  },
+  {
+   "category": "geo_glacier",
+   "label": "Glacier",
+   "unique_words": 5,
+   "occurrences": 135,
+   "hwa_heldout_source": 57.78,
+   "hwa_heldout_onepin": 81.48,
+   "hwa_ped_source": 61.48,
+   "hwa_ped_onepin": 99.26
+  },
+  {
+   "category": "cs_combined",
+   "label": "Computer science",
+   "unique_words": 4,
+   "occurrences": 108,
+   "hwa_heldout_source": 63.89,
+   "hwa_heldout_onepin": 80.56,
+   "hwa_ped_source": 72.22,
+   "hwa_ped_onepin": 100.0
+  }
+ ],
+ "word_distribution": {
+  "src_all_wrong": 60,
+  "fin_all_right": 240,
+  "fin_majority_right": 437,
+  "n_unique": 484
+ }
+}

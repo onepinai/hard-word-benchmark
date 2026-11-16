@@ -1,0 +1,1472 @@
+[
+ {
+  "word": "ReVia",
+  "script": "hw003",
+  "reading": "rəˈvi.ə",
+  "accepted": [
+   "rəˈvi.ə",
+   "riˈvaɪ.ə"
+  ]
+ },
+ {
+  "word": "Hukporti",
+  "script": "hw003",
+  "reading": "hʊkˈpɔr.ti",
+  "accepted": [
+   "hʊkˈpɔr.ti"
+  ]
+ },
+ {
+  "word": "Jaworzynka",
+  "script": "hw003",
+  "reading": "ˌjɑ.vɔˈʒɪn.kə",
+  "accepted": [
+   "ˌjɑ.vɔˈʒɪn.kə"
+  ]
+ },
+ {
+  "word": "Quelimane",
+  "script": "hw003",
+  "reading": "ˌkɛ.lɪˈmɑ.ni",
+  "accepted": [
+   "ˌkɛ.lɪˈmɑ.ni"
+  ]
+ },
+ {
+  "word": "Nebesha",
+  "script": "hw003",
+  "reading": "nɛˈbi.ʃə",
+  "accepted": [
+   "nɛˈbi.ʃə"
+  ]
+ },
+ {
+  "word": "Loge",
+  "script": "hw004",
+  "reading": "ˈloʊ.ɡi",
+  "accepted": [
+   "ˈloʊ.ɡi"
+  ]
+ },
+ {
+  "word": "Domony",
+  "script": "hw004",
+  "reading": "ˈdoʊ.moʊnj",
+  "accepted": [
+   "ˈdoʊ.moʊnj"
+  ]
+ },
+ {
+  "word": "Meotyda",
+  "script": "hw004",
+  "reading": "ˌmɛ.oʊˈti.də",
+  "accepted": [
+   "ˌmɛ.oʊˈti.də",
+   "miˈoʊ.tɪ.də"
+  ]
+ },
+ {
+  "word": "Nedroma",
+  "script": "hw004",
+  "reading": "nɛˈdru.mə",
+  "accepted": [
+   "nɛˈdru.mə"
+  ]
+ },
+ {
+  "word": "Tandava",
+  "script": "hw004",
+  "reading": "ˈtɑn.də.və",
+  "accepted": [
+   "ˈtɑn.də.və"
+  ]
+ },
+ {
+  "word": "Vilyuy",
+  "script": "hw005",
+  "reading": "vɪlˈjuɪ",
+  "accepted": [
+   "vɪlˈjuɪ"
+  ]
+ },
+ {
+  "word": "munajat",
+  "script": "hw005",
+  "reading": "ˌmu.nɑˈdʒɑt",
+  "accepted": [
+   "ˌmu.nɑˈdʒɑt",
+   "mʊˈnɑ.dʒɑt"
+  ]
+ },
+ {
+  "word": "Stroganov",
+  "script": "hw005",
+  "reading": "ˈstroʊ.gə.nɔf",
+  "accepted": [
+   "ˈstroʊ.gə.nɔf"
+  ]
+ },
+ {
+  "word": "Zaouli",
+  "script": "hw005",
+  "reading": "zaʊˈli",
+  "accepted": [
+   "zaʊˈli"
+  ]
+ },
+ {
+  "word": "Alseid",
+  "script": "hw005",
+  "reading": "æl.ˈsi.ɪd",
+  "accepted": [
+   "æl.ˈsi.ɪd"
+  ]
+ },
+ {
+  "word": "Debenedictis",
+  "script": "hw006",
+  "reading": "ˌdɛ.bɛ.nəˈdɪk.tɪs",
+  "accepted": [
+   "ˌdɛ.bɛ.nəˈdɪk.tɪs",
+   "dɛ.bəˈnɛd.ɪk.tɪs"
+  ]
+ },
+ {
+  "word": "Jereme",
+  "script": "hw006",
+  "reading": "ˈdʒɛr.ə.mi",
+  "accepted": [
+   "ˈdʒɛr.ə.mi"
+  ]
+ },
+ {
+  "word": "Mezmaiskaya",
+  "script": "hw006",
+  "reading": "mɛzˈmaɪs.kə.jə",
+  "accepted": [
+   "mɛzˈmaɪs.kə.jə"
+  ]
+ },
+ {
+  "word": "Tammuz",
+  "script": "hw006",
+  "reading": "ˈtɑ.mʊz",
+  "accepted": [
+   "ˈtɑ.mʊz",
+   "tɑˈmuz",
+   "ˈtæ.muz",
+   "ˈtæm.ʌz"
+  ]
+ },
+ {
+  "word": "Norge",
+  "script": "hw006",
+  "reading": "ˈnɔr.ɡə",
+  "accepted": [
+   "ˈnɔr.ɡə"
+  ]
+ },
+ {
+  "word": "Kerdylio",
+  "script": "hw008",
+  "reading": "kɛrˈði.li.oʊ",
+  "accepted": [
+   "kɛrˈði.li.oʊ",
+   "kɛrˈdi.li.oʊ"
+  ]
+ },
+ {
+  "word": "Afrodisio",
+  "script": "hw008",
+  "reading": "ˌæf.roʊˈdɪs.i.oʊ",
+  "accepted": [
+   "ˌæf.roʊˈdɪs.i.oʊ"
+  ]
+ },
+ {
+  "word": "Laine",
+  "script": "hw008",
+  "reading": "ˈlaɪ.ni",
+  "accepted": [
+   "ˈlaɪ.ni"
+  ]
+ },
+ {
+  "word": "Amaliada",
+  "script": "hw008",
+  "reading": "ˌɑ.mɑ.liˈɑ.ðə",
+  "accepted": [
+   "ˌɑ.mɑ.liˈɑ.ðə"
+  ]
+ },
+ {
+  "word": "Garip",
+  "script": "hw008",
+  "reading": "ɡəˈrip",
+  "accepted": [
+   "ɡəˈrip"
+  ]
+ },
+ {
+  "word": "Plechelm",
+  "script": "hw012",
+  "reading": "ˈplɛk.hɛlm",
+  "accepted": [
+   "ˈplɛk.hɛlm"
+  ]
+ },
+ {
+  "word": "Kinabalu",
+  "script": "hw012",
+  "reading": "ˌkɪ.nəˈbɑ.lu",
+  "accepted": [
+   "ˌkɪ.nəˈbɑ.lu",
+   "ˌkɪ.nə.bəˈlu"
+  ]
+ },
+ {
+  "word": "Evroopt",
+  "script": "hw012",
+  "reading": "ˌjɛv.roʊˈɔpt",
+  "accepted": [
+   "ˌjɛv.roʊˈɔpt",
+   "ˌɛv.roʊˈɔpt"
+  ]
+ },
+ {
+  "word": "Dayeh",
+  "script": "hw012",
+  "reading": "ˈdɑ.jɛ",
+  "accepted": [
+   "ˈdɑ.jɛ"
+  ]
+ },
+ {
+  "word": "Byooviz",
+  "script": "hw012",
+  "reading": "baɪˈuː.vɪz",
+  "accepted": [
+   "baɪˈuː.vɪz"
+  ]
+ },
+ {
+  "word": "Tafinlar",
+  "script": "hw013",
+  "reading": "təˈfɪn.lɑr",
+  "accepted": [
+   "təˈfɪn.lɑr",
+   "ˈtæf.ɪn.lɑr"
+  ]
+ },
+ {
+  "word": "Coronea",
+  "script": "hw013",
+  "reading": "ˌkɔ.rəˈni.ə",
+  "accepted": [
+   "ˌkɔ.rəˈni.ə"
+  ]
+ },
+ {
+  "word": "Yasushi",
+  "script": "hw013",
+  "reading": "jɑˈsu.ʃi",
+  "accepted": [
+   "jɑˈsu.ʃi"
+  ]
+ },
+ {
+  "word": "hycean",
+  "script": "hw013",
+  "reading": "ˈhaɪ.ʃən",
+  "accepted": [
+   "ˈhaɪ.ʃən"
+  ]
+ },
+ {
+  "word": "Xungen",
+  "script": "hw013",
+  "reading": "ˈʃʊn.gən",
+  "accepted": [
+   "ˈʃʊn.gən"
+  ]
+ },
+ {
+  "word": "Brusveen",
+  "script": "hw014",
+  "reading": "ˈbrus.veɪn",
+  "accepted": [
+   "ˈbrus.veɪn"
+  ]
+ },
+ {
+  "word": "Hiruzen",
+  "script": "hw014",
+  "reading": "hɪˈru.zɛn",
+  "accepted": [
+   "hɪˈru.zɛn"
+  ]
+ },
+ {
+  "word": "Meshchyora",
+  "script": "hw014",
+  "reading": "mɛˈʃɔr.ə",
+  "accepted": [
+   "mɛˈʃɔr.ə"
+  ]
+ },
+ {
+  "word": "Pfaadt",
+  "script": "hw014",
+  "reading": "ˈfɑt",
+  "accepted": [
+   "ˈfɑt"
+  ]
+ },
+ {
+  "word": "Rotterdam",
+  "script": "hw014",
+  "reading": "ˈrɑ.tɚˌdæm",
+  "accepted": [
+   "ˈrɑ.tɚˌdæm",
+   "ˌrɑ.tɚˈdɑm"
+  ]
+ },
+ {
+  "word": "Niger",
+  "script": "hw017",
+  "reading": "ˈnaɪdʒɚ",
+  "accepted": [
+   "ˈnaɪdʒɚ"
+  ]
+ },
+ {
+  "word": "Hjorter",
+  "script": "hw017",
+  "reading": "ˈjʊr.tɚ",
+  "accepted": [
+   "ˈjʊr.tɚ"
+  ]
+ },
+ {
+  "word": "Celtx",
+  "script": "hw017",
+  "reading": "ˈkɛl.tɪks",
+  "accepted": [
+   "ˈkɛl.tɪks"
+  ]
+ },
+ {
+  "word": "Diez",
+  "script": "hw017",
+  "reading": "dits",
+  "accepted": [
+   "dits"
+  ]
+ },
+ {
+  "word": "Sapropterin",
+  "script": "hw017",
+  "reading": "səˈprɑp.tər.ɪn",
+  "accepted": [
+   "səˈprɑp.tər.ɪn"
+  ]
+ },
+ {
+  "word": "Efudex",
+  "script": "hw021",
+  "reading": "ˈɛf.jʊ.dɛks",
+  "accepted": [
+   "ˈɛf.jʊ.dɛks"
+  ]
+ },
+ {
+  "word": "Pangrango",
+  "script": "hw021",
+  "reading": "pɑŋˈrɑ.ŋoʊ",
+  "accepted": [
+   "pɑŋˈrɑ.ŋoʊ"
+  ]
+ },
+ {
+  "word": "Foetus",
+  "script": "hw021",
+  "reading": "ˈfi.təs",
+  "accepted": [
+   "ˈfi.təs"
+  ]
+ },
+ {
+  "word": "Trisakti",
+  "script": "hw021",
+  "reading": "triˈsɑk.ti",
+  "accepted": [
+   "triˈsɑk.ti"
+  ]
+ },
+ {
+  "word": "Sindelfingen",
+  "script": "hw021",
+  "reading": "ˈsɪn.dəl.fɪŋ.ən",
+  "accepted": [
+   "ˈsɪn.dəl.fɪŋ.ən"
+  ]
+ },
+ {
+  "word": "Konohanasakuyahime",
+  "script": "hw023",
+  "reading": "ˌkoʊ.noʊ.hɑː.nɑː.sɑː.kuː.jɑː.hiː.meɪ",
+  "accepted": [
+   "ˌkoʊ.noʊ.hɑː.nɑː.sɑː.kuː.jɑː.hiː.meɪ"
+  ]
+ },
+ {
+  "word": "Panachikkadu",
+  "script": "hw023",
+  "reading": "pəˈnɑ.tʃɪ.kɑː.du",
+  "accepted": [
+   "pəˈnɑ.tʃɪ.kɑː.du"
+  ]
+ },
+ {
+  "word": "Iriomote",
+  "script": "hw023",
+  "reading": "ˌɪ.ri.oʊˈmoʊ.teɪ",
+  "accepted": [
+   "ˌɪ.ri.oʊˈmoʊ.teɪ"
+  ]
+ },
+ {
+  "word": "Chanyikhei",
+  "script": "hw023",
+  "reading": "ˌtʃɑn.jɪkˈheɪ",
+  "accepted": [
+   "ˌtʃɑn.jɪkˈheɪ"
+  ]
+ },
+ {
+  "word": "Honos",
+  "script": "hw023",
+  "reading": "ˈhoʊ.nɑs",
+  "accepted": [
+   "ˈhoʊ.nɑs"
+  ]
+ },
+ {
+  "word": "Vedreseyevo",
+  "script": "hw026",
+  "reading": "vɛ.drəˈseɪ.jə.voʊ",
+  "accepted": [
+   "vɛ.drəˈseɪ.jə.voʊ",
+   "ˌvɛ.drɛˈsɛ.voʊ"
+  ]
+ },
+ {
+  "word": "Tecovirimat",
+  "script": "hw026",
+  "reading": "ˌtɛ.koʊˈvɪ.rɪ.mæt",
+  "accepted": [
+   "ˌtɛ.koʊˈvɪ.rɪ.mæt"
+  ]
+ },
+ {
+  "word": "gujeolpan",
+  "script": "hw026",
+  "reading": "ˈku.dʒʌl.pɑn",
+  "accepted": [
+   "ˈku.dʒʌl.pɑn",
+   "ˈɡu.dʒʌl.pɑn"
+  ]
+ },
+ {
+  "word": "Dosas",
+  "script": "hw026",
+  "reading": "ˈdoʊ.səz",
+  "accepted": [
+   "ˈdoʊ.səz"
+  ]
+ },
+ {
+  "word": "Oishida",
+  "script": "hw026",
+  "reading": "oʊˈiʃɪ.də",
+  "accepted": [
+   "oʊˈiʃɪ.də"
+  ]
+ },
+ {
+  "word": "Angitola",
+  "script": "hw027",
+  "reading": "ɑnˈdʒi.toʊ.lə",
+  "accepted": [
+   "ɑnˈdʒi.toʊ.lə"
+  ]
+ },
+ {
+  "word": "Lithuania",
+  "script": "hw027",
+  "reading": "ˌlɪθ.uˈeɪ.ni.ə",
+  "accepted": [
+   "ˌlɪθ.uˈeɪ.ni.ə",
+   "ˌlɪθ.juˈeɪ.ni.ə",
+   "ˌlɪθ.əˈweɪ.ni.ə"
+  ]
+ },
+ {
+  "word": "Wiese",
+  "script": "hw027",
+  "reading": "ˈvi.zə",
+  "accepted": [
+   "ˈvi.zə"
+  ]
+ },
+ {
+  "word": "Noisettes",
+  "script": "hw027",
+  "reading": "nwaˈzɛts",
+  "accepted": [
+   "nwaˈzɛts"
+  ]
+ },
+ {
+  "word": "Calut",
+  "script": "hw027",
+  "reading": "dʒɑˈlut",
+  "accepted": [
+   "dʒɑˈlut"
+  ]
+ },
+ {
+  "word": "Ebbe",
+  "script": "hw029",
+  "reading": "ˈɛb.ə",
+  "accepted": [
+   "ˈɛb.ə",
+   "ˈɛb.i"
+  ]
+ },
+ {
+  "word": "Cedalion",
+  "script": "hw029",
+  "reading": "sɪˈdeɪ.li.ɑn",
+  "accepted": [
+   "sɪˈdeɪ.li.ɑn"
+  ]
+ },
+ {
+  "word": "Leitha",
+  "script": "hw029",
+  "reading": "ˈlaɪ.tə",
+  "accepted": [
+   "ˈlaɪ.tə"
+  ]
+ },
+ {
+  "word": "Dhemsa",
+  "script": "hw029",
+  "reading": "ˈdeɪm.sɑ",
+  "accepted": [
+   "ˈdeɪm.sɑ",
+   "ˈdɛm.sə"
+  ]
+ },
+ {
+  "word": "Awasis",
+  "script": "hw029",
+  "reading": "əˈwɑ.sɪs",
+  "accepted": [
+   "əˈwɑ.sɪs",
+   "ˈɑ.wɑ.sɪs"
+  ]
+ },
+ {
+  "word": "Behrendt",
+  "script": "hw030",
+  "reading": "ˈbɛr.ənt",
+  "accepted": [
+   "ˈbɛr.ənt"
+  ]
+ },
+ {
+  "word": "Paeroa",
+  "script": "hw030",
+  "reading": "paɪˈroʊ.ə",
+  "accepted": [
+   "paɪˈroʊ.ə"
+  ]
+ },
+ {
+  "word": "Tanztheater",
+  "script": "hw030",
+  "reading": "ˈtɑnts.teɪˌɑtɚ",
+  "accepted": [
+   "ˈtɑnts.teɪˌɑtɚ"
+  ]
+ },
+ {
+  "word": "Mehetia",
+  "script": "hw030",
+  "reading": "ˌmɛ.həˈti.ə",
+  "accepted": [
+   "ˌmɛ.həˈti.ə"
+  ]
+ },
+ {
+  "word": "Lumbini",
+  "script": "hw030",
+  "reading": "lʊmˈbi.ni",
+  "accepted": [
+   "lʊmˈbi.ni"
+  ]
+ },
+ {
+  "word": "Allegany",
+  "script": "hw032",
+  "reading": "ˌæl.ɪˈɡeɪ.ni",
+  "accepted": [
+   "ˌæl.ɪˈɡeɪ.ni"
+  ]
+ },
+ {
+  "word": "Aceh",
+  "script": "hw032",
+  "reading": "ˈɑ.tʃɛh",
+  "accepted": [
+   "ˈɑ.tʃɛh"
+  ]
+ },
+ {
+  "word": "Canan",
+  "script": "hw032",
+  "reading": "ˈkɑ.nɑn",
+  "accepted": [
+   "ˈkɑ.nɑn"
+  ]
+ },
+ {
+  "word": "Lothal",
+  "script": "hw032",
+  "reading": "ˈloʊ.tʰəl",
+  "accepted": [
+   "ˈloʊ.tʰəl"
+  ]
+ },
+ {
+  "word": "Karat",
+  "script": "hw032",
+  "reading": "kəˈrɑt",
+  "accepted": [
+   "kəˈrɑt",
+   "kɑˈrɑt"
+  ]
+ },
+ {
+  "word": "Eidskog",
+  "script": "hw034",
+  "reading": "ˈæɪd.skuɡ",
+  "accepted": [
+   "ˈæɪd.skuɡ",
+   "ˈeɪd.skuɡ",
+   "ˈaɪd.skuɡ"
+  ]
+ },
+ {
+  "word": "Matrikas",
+  "script": "hw034",
+  "reading": "ˈmɑ.trɪ.kɑz",
+  "accepted": [
+   "ˈmɑ.trɪ.kɑz"
+  ]
+ },
+ {
+  "word": "Kaynardzha",
+  "script": "hw034",
+  "reading": "ˌkaɪ.nɑrˈdʒɑ",
+  "accepted": [
+   "ˌkaɪ.nɑrˈdʒɑ"
+  ]
+ },
+ {
+  "word": "Tlaib",
+  "script": "hw034",
+  "reading": "təˈlib",
+  "accepted": [
+   "təˈlib"
+  ]
+ },
+ {
+  "word": "Hronek",
+  "script": "hw034",
+  "reading": "ˈhroʊ.nɛk",
+  "accepted": [
+   "ˈhroʊ.nɛk"
+  ]
+ },
+ {
+  "word": "Dzurinda",
+  "script": "hw036",
+  "reading": "ˈdzu.rɪn.də",
+  "accepted": [
+   "ˈdzu.rɪn.də"
+  ]
+ },
+ {
+  "word": "Geureudong",
+  "script": "hw036",
+  "reading": "ˌɡɛr.əˈdɔŋ",
+  "accepted": [
+   "ˌɡɛr.əˈdɔŋ"
+  ]
+ },
+ {
+  "word": "Bulova",
+  "script": "hw036",
+  "reading": "bəˈloʊ.və",
+  "accepted": [
+   "bəˈloʊ.və"
+  ]
+ },
+ {
+  "word": "Sengakuji",
+  "script": "hw036",
+  "reading": "sɛnˈgɑ.ku.dʒi",
+  "accepted": [
+   "sɛnˈgɑ.ku.dʒi"
+  ]
+ },
+ {
+  "word": "Broghil",
+  "script": "hw036",
+  "reading": "broʊˈɡɪl",
+  "accepted": [
+   "broʊˈɡɪl",
+   "ˈbroʊ.ɡɪl",
+   "broʊˈɣɪl",
+   "ˈbrɔ.gɪl"
+  ]
+ },
+ {
+  "word": "Nagano",
+  "script": "hw038",
+  "reading": "nəˈɡɑ.noʊ",
+  "accepted": [
+   "nəˈɡɑ.noʊ"
+  ]
+ },
+ {
+  "word": "Uratman",
+  "script": "hw038",
+  "reading": "ʊˈrɑt.mən",
+  "accepted": [
+   "ʊˈrɑt.mən",
+   "uˈrɑt.mɑn"
+  ]
+ },
+ {
+  "word": "Hallwyl",
+  "script": "hw038",
+  "reading": "ˈhɑl.vil",
+  "accepted": [
+   "ˈhɑl.vil",
+   "ˈhɑl.vɪl"
+  ]
+ },
+ {
+  "word": "Lavrovsky",
+  "script": "hw038",
+  "reading": "ləˈvrɔf.ski",
+  "accepted": [
+   "ləˈvrɔf.ski",
+   "lɑˈvrɔf.ski"
+  ]
+ },
+ {
+  "word": "Istropolitana",
+  "script": "hw038",
+  "reading": "ˌɪs.troʊ.pɑ.lɪˈtɑ.nə",
+  "accepted": [
+   "ˌɪs.troʊ.pɑ.lɪˈtɑ.nə"
+  ]
+ },
+ {
+  "word": "Imjin",
+  "script": "hw045",
+  "reading": "ˈɪm.dʒɪn",
+  "accepted": [
+   "ˈɪm.dʒɪn",
+   "ˈim.dʒin"
+  ]
+ },
+ {
+  "word": "Tongariyama",
+  "script": "hw045",
+  "reading": "ˌtɔŋ.ɡɑː.riˈjɑː.mə",
+  "accepted": [
+   "ˌtɔŋ.ɡɑː.riˈjɑː.mə"
+  ]
+ },
+ {
+  "word": "Styrvoll",
+  "script": "hw045",
+  "reading": "ˈstɪr.vɔl",
+  "accepted": [
+   "ˈstɪr.vɔl"
+  ]
+ },
+ {
+  "word": "Kingu",
+  "script": "hw045",
+  "reading": "ˈkɪŋ.ɡu",
+  "accepted": [
+   "ˈkɪŋ.ɡu",
+   "ˈkɪn.ɡu"
+  ]
+ },
+ {
+  "word": "Belyayev",
+  "script": "hw045",
+  "reading": "bɛlˈjɑ.jɛf",
+  "accepted": [
+   "bɛlˈjɑ.jɛf"
+  ]
+ },
+ {
+  "word": "Nembutal",
+  "script": "hw046",
+  "reading": "ˈnɛm.bjə.tɔl",
+  "accepted": [
+   "ˈnɛm.bjə.tɔl"
+  ]
+ },
+ {
+  "word": "Cusco",
+  "script": "hw046",
+  "reading": "ˈkus.koʊ",
+  "accepted": [
+   "ˈkus.koʊ"
+  ]
+ },
+ {
+  "word": "Sous",
+  "script": "hw046",
+  "reading": "ˈsus",
+  "accepted": [
+   "ˈsus"
+  ]
+ },
+ {
+  "word": "Calera",
+  "script": "hw046",
+  "reading": "kəˈlɛr.ə",
+  "accepted": [
+   "kəˈlɛr.ə",
+   "kəˈlɪr.ə"
+  ]
+ },
+ {
+  "word": "Meovv",
+  "script": "hw046",
+  "reading": "miˈaʊ",
+  "accepted": [
+   "miˈaʊ"
+  ]
+ },
+ {
+  "word": "Amadjuak",
+  "script": "hw047",
+  "reading": "əˈmæ.dʒu.æk",
+  "accepted": [
+   "əˈmæ.dʒu.æk",
+   "ˌæ.mædʒ.u.ˈwæk"
+  ]
+ },
+ {
+  "word": "talempong",
+  "script": "hw047",
+  "reading": "təˈlɛm.pɔŋ",
+  "accepted": [
+   "təˈlɛm.pɔŋ"
+  ]
+ },
+ {
+  "word": "Gridr",
+  "script": "hw047",
+  "reading": "ˈɡri.ðɚ",
+  "accepted": [
+   "ˈɡri.ðɚ"
+  ]
+ },
+ {
+  "word": "Athiya",
+  "script": "hw047",
+  "reading": "ˈɑ.ti.jə",
+  "accepted": [
+   "ˈɑ.ti.jə"
+  ]
+ },
+ {
+  "word": "Prelude",
+  "script": "hw047",
+  "reading": "ˈprɛl.jud",
+  "accepted": [
+   "ˈprɛl.jud"
+  ]
+ },
+ {
+  "word": "Cevedale",
+  "script": "hw048",
+  "reading": "ˌtʃɛ.vəˈdɑ.leɪ",
+  "accepted": [
+   "ˌtʃɛ.vəˈdɑ.leɪ",
+   "ˌtʃɛ.vɛˈdɑ.lɛ"
+  ]
+ },
+ {
+  "word": "Leto",
+  "script": "hw048",
+  "reading": "ˈli.toʊ",
+  "accepted": [
+   "ˈli.toʊ"
+  ]
+ },
+ {
+  "word": "janissary",
+  "script": "hw048",
+  "reading": "ˈdʒæn.əˌsɛr.i",
+  "accepted": [
+   "ˈdʒæn.əˌsɛr.i",
+   "ˈdʒæn.əˌzɛr.i"
+  ]
+ },
+ {
+  "word": "Acanceh",
+  "script": "hw048",
+  "reading": "ˌɑ.kɑnˈkeɪ",
+  "accepted": [
+   "ˌɑ.kɑnˈkeɪ"
+  ]
+ },
+ {
+  "word": "Maestrale",
+  "script": "hw048",
+  "reading": "ˌmɑ.ɛˈstrɑ.leɪ",
+  "accepted": [
+   "ˌmɑ.ɛˈstrɑ.leɪ"
+  ]
+ },
+ {
+  "word": "Metronidazole",
+  "script": "hw051",
+  "reading": "ˌmɛ.troʊˈnaɪ.də.zoʊl",
+  "accepted": [
+   "ˌmɛ.troʊˈnaɪ.də.zoʊl"
+  ]
+ },
+ {
+  "word": "shidaiqu",
+  "script": "hw051",
+  "reading": "ˈʃɚ.daɪ.tʃu",
+  "accepted": [
+   "ˈʃɚ.daɪ.tʃu"
+  ]
+ },
+ {
+  "word": "Humanyun",
+  "script": "hw051",
+  "reading": "huˈmɑ.jun",
+  "accepted": [
+   "huˈmɑ.jun"
+  ]
+ },
+ {
+  "word": "Igaliku",
+  "script": "hw051",
+  "reading": "ˈɪɡ.ə.lɪ.ku",
+  "accepted": [
+   "ˈɪɡ.ə.lɪ.ku"
+  ]
+ },
+ {
+  "word": "Hibis",
+  "script": "hw051",
+  "reading": "ˈhaɪ.bɪs",
+  "accepted": [
+   "ˈhaɪ.bɪs",
+   "ˈhi.bɪs"
+  ]
+ },
+ {
+  "word": "Espagne",
+  "script": "hw053",
+  "reading": "ɛsˈpɑnj",
+  "accepted": [
+   "ɛsˈpɑnj"
+  ]
+ },
+ {
+  "word": "Wilthen",
+  "script": "hw053",
+  "reading": "ˈvɪl.tən",
+  "accepted": [
+   "ˈvɪl.tən"
+  ]
+ },
+ {
+  "word": "Runde",
+  "script": "hw053",
+  "reading": "ˈrʊn.də",
+  "accepted": [
+   "ˈrʊn.də"
+  ]
+ },
+ {
+  "word": "MacEwen",
+  "script": "hw053",
+  "reading": "məˈkjuː.ən",
+  "accepted": [
+   "məˈkjuː.ən"
+  ]
+ },
+ {
+  "word": "Akwayafe",
+  "script": "hw053",
+  "reading": "ˈɑ.kwɑ.jɑ.feɪ",
+  "accepted": [
+   "ˈɑ.kwɑ.jɑ.feɪ",
+   "ˌɑ.kwɑˈjɑ.feɪ"
+  ]
+ },
+ {
+  "word": "Sheriffmuir",
+  "script": "hw054",
+  "reading": "ˈʃɛr.ɪfˌmʊr",
+  "accepted": [
+   "ˈʃɛr.ɪfˌmʊr"
+  ]
+ },
+ {
+  "word": "Jyoti",
+  "script": "hw054",
+  "reading": "ˈdʒjoʊ.ti",
+  "accepted": [
+   "ˈdʒjoʊ.ti",
+   "ˈdʒoʊ.ti",
+   "ˈdʒjoʊ.t̬i"
+  ]
+ },
+ {
+  "word": "Ahimaaz",
+  "script": "hw054",
+  "reading": "əˈhɪ.mə.æz",
+  "accepted": [
+   "əˈhɪ.mə.æz"
+  ]
+ },
+ {
+  "word": "Luhn",
+  "script": "hw054",
+  "reading": "ˈlun",
+  "accepted": [
+   "ˈlun"
+  ]
+ },
+ {
+  "word": "computus",
+  "script": "hw054",
+  "reading": "ˈkɑm.pjə.təs",
+  "accepted": [
+   "ˈkɑm.pjə.təs"
+  ]
+ },
+ {
+  "word": "Callao",
+  "script": "hw055",
+  "reading": "kəˈjaʊ",
+  "accepted": [
+   "kəˈjaʊ",
+   "kəˈjɑ.oʊ"
+  ]
+ },
+ {
+  "word": "Dakataua",
+  "script": "hw055",
+  "reading": "ˌdɑ.kɑˈtaʊ.ɑ",
+  "accepted": [
+   "ˌdɑ.kɑˈtaʊ.ɑ",
+   "ˌdɑ.kəˈtaʊ.ə"
+  ]
+ },
+ {
+  "word": "Thamirabarani",
+  "script": "hw055",
+  "reading": "ˌtɑ.mɪ.rəˈbɑ.rə.ni",
+  "accepted": [
+   "ˌtɑ.mɪ.rəˈbɑ.rə.ni"
+  ]
+ },
+ {
+  "word": "Tarantul",
+  "script": "hw055",
+  "reading": "təˈrɑn.tʊl",
+  "accepted": [
+   "təˈrɑn.tʊl"
+  ]
+ },
+ {
+  "word": "Mnemosyne",
+  "script": "hw055",
+  "reading": "nəˈmɑs.ə.ni",
+  "accepted": [
+   "nəˈmɑs.ə.ni"
+  ]
+ },
+ {
+  "word": "Desroches",
+  "script": "hw057",
+  "reading": "deɪˈroʊʃ",
+  "accepted": [
+   "deɪˈroʊʃ"
+  ]
+ },
+ {
+  "word": "Tumbatu",
+  "script": "hw057",
+  "reading": "tʌmˈbɑ.tu",
+  "accepted": [
+   "tʌmˈbɑ.tu"
+  ]
+ },
+ {
+  "word": "Esterhuysen",
+  "script": "hw057",
+  "reading": "ˈɛs.tɚˌheɪ.zən",
+  "accepted": [
+   "ˈɛs.tɚˌheɪ.zən",
+   "ˈɛs.tɚˌhaɪ.zən"
+  ]
+ },
+ {
+  "word": "Xeon",
+  "script": "hw057",
+  "reading": "ˈzi.ɑn",
+  "accepted": [
+   "ˈzi.ɑn"
+  ]
+ },
+ {
+  "word": "Berthelot",
+  "script": "hw057",
+  "reading": "ˌbɛr.təˈloʊ",
+  "accepted": [
+   "ˌbɛr.təˈloʊ"
+  ]
+ },
+ {
+  "word": "Fruela",
+  "script": "hw058",
+  "reading": "ˈfrweɪ.lə",
+  "accepted": [
+   "ˈfrweɪ.lə"
+  ]
+ },
+ {
+  "word": "Seelow",
+  "script": "hw058",
+  "reading": "ˈzeɪ.loʊ",
+  "accepted": [
+   "ˈzeɪ.loʊ"
+  ]
+ },
+ {
+  "word": "Zhupanovsky",
+  "script": "hw058",
+  "reading": "ʒuˈpɑ.nəf.ski",
+  "accepted": [
+   "ʒuˈpɑ.nəf.ski"
+  ]
+ },
+ {
+  "word": "Chariclo",
+  "script": "hw058",
+  "reading": "ˈkær.ɪk.loʊ",
+  "accepted": [
+   "ˈkær.ɪk.loʊ"
+  ]
+ },
+ {
+  "word": "Avonmore",
+  "script": "hw058",
+  "reading": "ˌævənˈmɔr",
+  "accepted": [
+   "ˌævənˈmɔr"
+  ]
+ },
+ {
+  "word": "Mahalakshmi",
+  "script": "hw060",
+  "reading": "ˌmɑ.hɑˈlʌkʃ.mi",
+  "accepted": [
+   "ˌmɑ.hɑˈlʌkʃ.mi"
+  ]
+ },
+ {
+  "word": "Mendrisio",
+  "script": "hw060",
+  "reading": "mɛnˈdri.zi.oʊ",
+  "accepted": [
+   "mɛnˈdri.zi.oʊ",
+   "mɛnˈdri.zjoʊ"
+  ]
+ },
+ {
+  "word": "Levetiracetam",
+  "script": "hw060",
+  "reading": "ˌlɛ.və.tɪˈræ.sə.tæm",
+  "accepted": [
+   "ˌlɛ.və.tɪˈræ.sə.tæm"
+  ]
+ },
+ {
+  "word": "Shahdagh",
+  "script": "hw060",
+  "reading": "ʃɑˈdɑɡ",
+  "accepted": [
+   "ʃɑˈdɑɡ"
+  ]
+ },
+ {
+  "word": "Sognsvann",
+  "script": "hw060",
+  "reading": "ˈsɔŋns.vɑn",
+  "accepted": [
+   "ˈsɔŋns.vɑn"
+  ]
+ },
+ {
+  "word": "Badakhshan",
+  "script": "hw069",
+  "reading": "ˌbɑ.dɑxˈʃɑn",
+  "accepted": [
+   "ˌbɑ.dɑxˈʃɑn"
+  ]
+ },
+ {
+  "word": "Oran",
+  "script": "hw069",
+  "reading": "oʊˈrɑn",
+  "accepted": [
+   "oʊˈrɑn"
+  ]
+ },
+ {
+  "word": "Spreeinsel",
+  "script": "hw069",
+  "reading": "ˈʃpreɪ.ˌɪn.zəl",
+  "accepted": [
+   "ˈʃpreɪ.ˌɪn.zəl"
+  ]
+ },
+ {
+  "word": "Arak",
+  "script": "hw069",
+  "reading": "ˈær.ək",
+  "accepted": [
+   "ˈær.ək",
+   "əˈræk",
+   "ˈɑr.æk"
+  ]
+ },
+ {
+  "word": "ActiveX",
+  "script": "hw069",
+  "reading": "ˈæk.tɪv.ɛks",
+  "accepted": [
+   "ˈæk.tɪv.ɛks"
+  ]
+ },
+ {
+  "word": "Equirria",
+  "script": "hw071",
+  "reading": "ɪˈkwɪr.i.ə",
+  "accepted": [
+   "ɪˈkwɪr.i.ə"
+  ]
+ },
+ {
+  "word": "creacionismo",
+  "script": "hw071",
+  "reading": "ˌkreɪ.ɑ.sjoʊˈniz.moʊ",
+  "accepted": [
+   "ˌkreɪ.ɑ.sjoʊˈniz.moʊ"
+  ]
+ },
+ {
+  "word": "Talietumu",
+  "script": "hw071",
+  "reading": "ˌtɑ.li.ɛˈtu.mu",
+  "accepted": [
+   "ˌtɑ.li.ɛˈtu.mu"
+  ]
+ },
+ {
+  "word": "Prisunic",
+  "script": "hw071",
+  "reading": "ˌpri.zuˈnik",
+  "accepted": [
+   "ˌpri.zuˈnik",
+   "ˌpri.zyˈnik"
+  ]
+ },
+ {
+  "word": "Kneissl",
+  "script": "hw071",
+  "reading": "ˈknaɪ.səl",
+  "accepted": [
+   "ˈknaɪ.səl"
+  ]
+ },
+ {
+  "word": "Ceili",
+  "script": "hw076",
+  "reading": "ˈkeɪ.li",
+  "accepted": [
+   "ˈkeɪ.li"
+  ]
+ },
+ {
+  "word": "Capuzzo",
+  "script": "hw076",
+  "reading": "kəˈpʊt.soʊ",
+  "accepted": [
+   "kəˈpʊt.soʊ"
+  ]
+ },
+ {
+  "word": "Bakhtegan",
+  "script": "hw076",
+  "reading": "ˌbɑx.tɛˈɡɑn",
+  "accepted": [
+   "ˌbɑx.tɛˈɡɑn"
+  ]
+ },
+ {
+  "word": "Imerys",
+  "script": "hw076",
+  "reading": "ˌi.məˈris",
+  "accepted": [
+   "ˌi.məˈris",
+   "ˌɪ.məˈris"
+  ]
+ },
+ {
+  "word": "Ulloa",
+  "script": "hw076",
+  "reading": "uˈjoʊ.ə",
+  "accepted": [
+   "uˈjoʊ.ə"
+  ]
+ },
+ {
+  "word": "Montillet",
+  "script": "hw080",
+  "reading": "ˌmoʊn.tiˈjeɪ",
+  "accepted": [
+   "ˌmoʊn.tiˈjeɪ"
+  ]
+ },
+ {
+  "word": "Devasena",
+  "script": "hw080",
+  "reading": "ˌdeɪ.vəˈseɪ.nə",
+  "accepted": [
+   "ˌdeɪ.vəˈseɪ.nə"
+  ]
+ },
+ {
+  "word": "Ballack",
+  "script": "hw080",
+  "reading": "ˈbɑ.læk",
+  "accepted": [
+   "ˈbɑ.læk"
+  ]
+ },
+ {
+  "word": "Dwejra",
+  "script": "hw080",
+  "reading": "ˈdweɪ.rə",
+  "accepted": [
+   "ˈdweɪ.rə"
+  ]
+ },
+ {
+  "word": "fado",
+  "script": "hw080",
+  "reading": "ˈfɑ.doʊ",
+  "accepted": [
+   "ˈfɑ.doʊ"
+  ]
+ },
+ {
+  "word": "Innaby",
+  "script": "hw086",
+  "reading": "ˌɪn.nɑˈbə",
+  "accepted": [
+   "ˌɪn.nɑˈbə"
+  ]
+ },
+ {
+  "word": "Joronen",
+  "script": "hw086",
+  "reading": "ˈjɔ.roʊ.nɛn",
+  "accepted": [
+   "ˈjɔ.roʊ.nɛn"
+  ]
+ },
+ {
+  "word": "Rohtasgarh",
+  "script": "hw086",
+  "reading": "roʊˈtɑs.gɑrh",
+  "accepted": [
+   "roʊˈtɑs.gɑrh"
+  ]
+ },
+ {
+  "word": "Liiga",
+  "script": "hw086",
+  "reading": "ˈliː.ɡə",
+  "accepted": [
+   "ˈliː.ɡə"
+  ]
+ },
+ {
+  "word": "Vytebet",
+  "script": "hw097",
+  "reading": "ˈvɪt.ə.bɛt",
+  "accepted": [
+   "ˈvɪt.ə.bɛt"
+  ]
+ },
+ {
+  "word": "Nagycserkesz",
+  "script": "hw097",
+  "reading": "ˈnɑdʒ.tʃɛr.kɛs",
+  "accepted": [
+   "ˈnɑdʒ.tʃɛr.kɛs"
+  ]
+ },
+ {
+  "word": "neofolklorism",
+  "script": "hw097",
+  "reading": "ˌni.oʊˈfoʊk.lɔr.ɪ.zəm",
+  "accepted": [
+   "ˌni.oʊˈfoʊk.lɔr.ɪ.zəm"
+  ]
+ },
+ {
+  "word": "Heimdal",
+  "script": "hw097",
+  "reading": "ˈheɪm.dɑl",
+  "accepted": [
+   "ˈheɪm.dɑl"
+  ]
+ }
+]
